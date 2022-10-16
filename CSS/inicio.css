@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(185, 210, 218);
+}
+
+.img-portada {
+    height: 250px;
+    width: 100%;
+}
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
