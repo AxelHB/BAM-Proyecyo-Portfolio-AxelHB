@@ -1,4 +1,6 @@
 *{
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(185, 210, 218);
 }
 
@@ -8,6 +10,44 @@
 }
 
 body {
-    width: 1024px;
+    width: 1200px;
     margin: 0 auto;
 }
+
+
+.contenedor-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+ }
+
+ /*LISTAS DEL NAV*/
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.video-qatar {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+/*PIE DE PÁGINA*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+
+
+
+

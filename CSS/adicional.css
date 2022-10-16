@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(185, 210, 218);
+}
+
+.img-portada {
+    height: 250px;
+    width: 100%;
+}
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+.contenedor-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+ }
+
+ /*LISTAS DEL NAV*/
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+/*PIE DE PÁGINA*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
