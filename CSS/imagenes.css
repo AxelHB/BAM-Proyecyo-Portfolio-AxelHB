@@ -1,17 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(185, 210, 218);
-}
-
-.img-portada {
-    height: 250px;
-    width: 100%;
 }
 
 body {
-    width: 1024px;
+    width: 1200px;
     margin: 0 auto;
+    background-image: url(../images/fondo.jpg);
 }
 
 
@@ -25,18 +20,86 @@ body {
 
 .img-logo {
     width: 100px;
-    height: 100px;
+    height: 50px;
+    padding: 10px;
  }
 
- /*LISTAS DEL NAV*/
-li {
-    display: inline-block;
-    font-size: 20px;
+/*nuevo nav*/
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: monospace;
+  }
+  
+  ul {
+    background: rgb(34, 73, 110);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    color: #fff;
+    background: rgb(34, 73, 110);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+    background: rgb(88, 128, 175);
+    cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+    background: rgb(34, 73, 110);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+.video-qatar {
+    display: flex;
+    width: 200px;
+    height: 200px;
 }
 
 /*PIE DE PÁGINA*/
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center ;
 }

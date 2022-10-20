@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/escribime.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario:</h1>
+
+    <form class="formulario1" action="" method="">
+        <fieldset> <!--Agrega un recuadro en todo el form-->
+            <legend>Datos Personales</legend> <!--Comentario leyenda para el recuadro-->
+
+            <label class="form-nombre" for="nombre">Nombre: </label>
+            <br>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+
+            <label class="form-genero" for="genero">Género: </label>
+            <br>
+            <select name="genero" id="genero">
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+            <br>
+    
+            <label class="form-texto" for="area">Inserte texto: </label>
+            <br>
+            <textarea name="area" id="area" cols="30" rows="10"></textarea>
+            <br>
+    
+            <label class="form-tel" for="telefono">Teléfono: </label>
+            <br>
+            <input type="number" name="telefono" id="telefono">
+            <br>
+    
+            <label  class="form-email" for="email">Correo Electrónico: </label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+    
+            <label class="form-coment" for="comentarios">Comentarios: </label>
+            <br>
+            <input type="text" name="comentarios" id="comentarios">
+            <br>
+            
+            <div><p>Acepta términos y condiciones</p></div>
+            <input type="checkbox" name="acepta" value="1">
+            <br>
+
+            <input type="submit">
+            <input type="reset" value="Borrar Campos">
+            <br>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

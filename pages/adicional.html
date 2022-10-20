@@ -5,31 +5,43 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=h1, initial-scale=1.0">
         <link rel="stylesheet" href="../CSS/adicional.css">
-        <title>Fixture</title>
+        <title>Inicio</title>
     </head>
     <body>
-        
-        <img class="img-portada" src="../images/portada.jpg" alt="imagen de portada mundial">
-        
+
         <div class="contenedor-nav">
-            <img class="img-logo" src="../images/logo.png" alt="">
-            <nav>
+            <img class="img-logo" src="../images/logo.png" alt="Logo de ApcS">
+            <nav role="navigation">
                 <ul>
-                    <li><a href="../index.html">Menú</a></li>
-                    <li><a href="fixture.html">Fixture</a></li>
-                    <li><a href="imagenes.html">Imágenes</a></li>
-                    <li><a href="adicional.html">Adicional</a></li>
+                  <li><a href="../index.html">Menú</a></li>
+                  <li><a href="adicional.html" aria-haspopup="true">Adicional</a>
+                    <ul class="dropdown" aria-label="submenu">
+                      <li><a href="imagenes.html">Imágenes</a></li>
+                      <li><a href="conocimietos.html">Conocimientos</a></li>
+                      <li><a href="escribime.html">Escribime</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="login.html">Inicia sesión</a></li>
                 </ul>
-            </nav>
+              </nav>
         </div>
         
         <hr>
+        
         <main>
+
             <section>
                 <h2>Contenido de importancia</h2>
-                <p>ADICIONALESSS</p>
+                <p>un poco del menú</p>
                 <a target="_blank" href="https://www.google.com/search?q=fixture+mundial+2022&rlz=1C1ONGR_esAR1025AR1025&oq=fixture+mundial+2022&aqs=chrome..69i57j0i131i433i512l3j0i512l2j0i131i433i512l2j0i512l2.2102j1j7&sourceid=chrome&ie=UTF-8#sie=lg;/m/0fp_8fm;2;/m/030q7;mt;fp;1;;;">Fixture</a>
+
             </section>
+
+            <article class="video-qatar">
+                <video src="video/FIFA World Cup Qatar 2022 _ Official Emblem.mp4" controls></video>
+            </article>
+     
+
         </main>
 
 
@@ -37,5 +49,6 @@
 
     <footer>
         <p>Axel Henderson Bianchi</p>
+        <audio class="audio-fondo" src="audio/videoplayback.m4a" controls></audio>
     </footer>
 </html>

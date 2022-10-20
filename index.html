@@ -8,24 +8,30 @@
         <title>Inicio</title>
     </head>
     <body>
-        
-        <img class="img-portada" src="images/portada.jpg" alt="imagen de portada mundial">
-        
+
+        <img  class="banner" src="images/loading-1.webp" alt="este es el banner">
+
         <div class="contenedor-nav">
-            <img class="img-logo" src="images/logo.png" alt="">
-            <nav>
+            <img class="img-logo" src="images/logo.png" alt="Logo de ApcS">
+            <nav role="navigation">
                 <ul>
-                    <li><a href="index.html">Menú</a></li>
-                    <li><a href="pages/fixture.html">Fixture</a></li>
-                    <li><a href="pages/imagenes.html">Imágenes</a></li>
-                    <li><a href="pages/adicional.html">Adicional</a></li>
+                  <li><a href="index.html">Menú</a></li>
+                  <li><a href="pages/adicional.html" aria-haspopup="true">Adicional</a>
+                    <ul class="dropdown" aria-label="submenu">
+                      <li><a href="pages/imagenes.html">Imágenes</a></li>
+                      <li><a href="pages/conocimietos.html">Conocimientos</a></li>
+                      <li><a href="pages/escribime.html">Escribime</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="pages/login.html">Inicia sesión</a></li>
                 </ul>
-            </nav>
+              </nav>
         </div>
         
         <hr>
         
         <main>
+
             <section>
                 <h2>Contenido de importancia</h2>
                 <p>un poco del menú</p>
